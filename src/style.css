@@ -183,7 +183,7 @@ button:hover {
 
 .list {
   list-style: none;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   position: absolute;
   top: -5px;
   left: 0px;
@@ -193,31 +193,61 @@ button:hover {
 
 .projects-list {
   list-style: none;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   position: absolute;
-  top: -5px;
-  left: 0px;
+  top: -15px;
+  left: 10px;
   color: #020304;
   text-align: left;
 }
 
-.skills-header {
-  list-style: none;
-  font-size: 1.75rem;
-  position: absolute;
-  top: 0px;
-  left: 15px;
-  color: #020304;
-  text-align: left;
-}
-
-.skills-item {
+.experience-list {
   list-style: none;
   font-size: 1.5rem;
-  left: 0px;
-  top: 30px;
+  left: 10px;
+  top: 0px;
   margin-top: 10px;
   color: #020304;
   text-align: left;
   position: relative;
+}
+
+.experience-item {
+  list-style: none;
+  font-size: 1.5rem;
+  left: 10px;
+  top: -10px;
+  margin-top: 10px;
+  color: #020304;
+  text-align: left;
+  position: relative;
+}
+
+.skills-list {
+  font-size: 1.5rem;
+  color: #020304;
+  text-align: left;
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+
+.skills-group {
+  margin-bottom: 10px;
+}
+
+.skills-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.skills-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.skills-item {
+  color: #020304;
+  white-space: nowrap;
 }
